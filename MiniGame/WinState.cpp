@@ -30,7 +30,7 @@ bool WinState::onEnter()
 		return false;
 	}
 	if (!TheTextureManager::Instance()->load("Assets/exit2.png", "exitbutton",
-		TheGame::Instance()->getRenderer())
+		TheGame::Instance()->getRenderer()))
 	{
 		return false;
 	}
